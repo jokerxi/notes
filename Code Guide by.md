@@ -30,5 +30,16 @@ HTML
     <li>嵌套的节点应该缩进；</li>
     <li>在属性上，使用双引号，不要使用单引号；</li>
     <li>属性名全小写，用中划线做分隔符；</li>
-    <li>不要在自动闭合标签结尾处使用斜线<a href="https://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">HTML5 规范</a>规范 指出他们是可选的)；</li>
+    <li>不要在自动闭合标签结尾处使用斜线(<a href="https://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">HTML5 规范</a>规范 指出他们是可选的)；</li>
 </ul>
+栗子：
+`<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page title</title>
+    </head>
+    <body>
+        <img src="images/company_logo.png" alt="Company">
+        <h1 class="hello-world">Hello, world!</h1>
+    </body>
+</html>`
