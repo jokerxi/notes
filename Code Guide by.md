@@ -1,22 +1,22 @@
-<center>腾讯代码规范</center>>
+<center>腾讯代码规范</center>
 =============
+
 命名规则
 -------------
-1.
 1.[项目命名]<br>
-&nbsp;栗子：my_project_name
+&nbsp;&nbsp;栗子：my_project_name
 
 2.[目录命名 有复数结构时，要采用复数命名法]<br>
-&nbsp;栗子：scripts，styles，images,data_models
+&nbsp;&nbsp;栗子：scripts，styles，images,data_models
 
 3.[JS文件命名 参照项目命名规则]<br>
-&nbsp;栗子：account_model.js
+&nbsp;&nbsp;栗子：account_model.js
 
 4.[CSS,SCSS文件命名 参照项目命名规则]<br>
-&nbsp;栗子：retina_sprites.scss
+&nbsp;&nbsp;栗子：retina_sprites.scss
 
 5.[HTML文件命名 参照项目命名规则]<br>
-&nbsp;栗子：error_report.html
+&nbsp;&nbsp;栗子：error_report.html
 
 HTML
 -------------
