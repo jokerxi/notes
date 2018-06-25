@@ -24,5 +24,4 @@ HTML
     <li>在属性上，使用双引号，不要使用单引号；</li>
     <li>属性名全小写，用中划线做分隔符；</li>
     <li>不要在自动闭合标签结尾处使用斜线([HTML5](https://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag)规范 指出他们是可选的)；</li>
-    <li>不要忽略可选的关闭标签，例：```</li>和 </body>。</li>
-```</ul>
+</ul>
