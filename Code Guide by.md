@@ -17,7 +17,7 @@
 
 4. [CSS,SCSS文件命名 参照项目命名规则]<br>
 
-> 栗子：retina_sprites.scss</font>
+> 栗子：retina_sprites.scss
 
 5. [HTML文件命名 参照项目命名规则]<br>
 
@@ -33,8 +33,7 @@ HTML
     <li>不要在自动闭合标签结尾处使用斜线(<a href="https://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">HTML5 规范</a>规范 指出他们是可选的)；</li>
 </ul>
 
-栗子：
--------------
+> 栗子:
 ``` html
 <!DOCTYPE html>
 <html>
