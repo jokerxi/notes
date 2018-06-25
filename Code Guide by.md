@@ -19,6 +19,6 @@
 
 HTML
 -------------
-    <ul>
-        <li>缩进使用soft tab（4个空格）；</li>
-    </ul>
+<ul>
+    <li>缩进使用soft tab（4个空格）；</li>
+</ul>
