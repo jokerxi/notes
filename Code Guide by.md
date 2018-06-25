@@ -1,4 +1,4 @@
-<center>腾讯代码规范</center>
+<conter>腾讯代码规范</conter>
 =============
 
 命名规则
