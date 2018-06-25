@@ -33,13 +33,16 @@ HTML
     <li>不要在自动闭合标签结尾处使用斜线(<a href="https://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">HTML5 规范</a>规范 指出他们是可选的)；</li>
 </ul>
 栗子：
-`<!DOCTYPE html>
+``` html
+<!DOCTYPE html>
 <html>
     <head>
         <title>Page title</title>
     </head>
     <body>
         <img src="images/company_logo.png" alt="Company">
+        
         <h1 class="hello-world">Hello, world!</h1>
     </body>
-</html>`
+</html>
+```
