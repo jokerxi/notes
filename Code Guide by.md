@@ -1,5 +1,5 @@
-#<center>腾讯前端代码规范</center>
-##<center>命名规则</center>
+# 腾讯前端代码规范
+## 命名规则
 1. 项目命名<br>
 
     ><font color="#0000FF">栗子：</font>my_project_name
@@ -20,18 +20,18 @@
 
     ><font color="#0000ff">栗子：</font>error_report.html
 
-##<center>HTML</center>
-###语法：
+## HTML
+### 语法：
 <ul>
     <li>缩进使用soft tab(4个空格)；</li>
     <li>嵌套的节点应该缩进；</li>
     <li>在属性上，使用双引号，不要使用单引号；</li>
     <li>属性名全小写，用中划线做分隔符；</li>
     <li>不要在自动闭合标签结尾处使用斜线(<a href="https://dev.w3.org/html5/spec-author-view/syntax.html#syntax-start-tag">HTML5 规范</a> 指出他们是可选的)；</li>
-    <li>不要忽略可选的关闭标签，``<font color="#0000FF">栗子：</font></li> 和 </body>。```</li>
+    <li>不要忽略可选的关闭标签,</li>
 </ul>
 
-><font color="#0000FF">栗子:</font>
+><font color="#00F">栗子:</font>
 
 ``` html
 <!DOCTYPE html>
@@ -47,7 +47,7 @@
 </html>
 ```
 
-###HTML5 doctype
+### HTML5 doctype
 在页面开头使用这个简单地doctype来启用标准模式，使其在每个浏览器中尽可能一致的展现；<br>
 虽然doctype不区分大小写，但是按照惯例，doctype大写<a href="https://stackoverflow.com/questions/15594877/is-there-any-benefits-to-use-uppercase-or-lowercase-letters-with-html5-tagname">( 关于html属性，大写还是小写。)</a>
 
@@ -60,7 +60,7 @@
 </html>
 ```
 
-###lang属性
+### lang属性
 根据HTML5规范：
 >应在html标签上加上lang属性。这会给语音工具和翻译工具帮助，告诉它们应当怎么去发音和翻译。
 
@@ -69,6 +69,7 @@
     <li>在sitepoint上可以查到<a href="http://reference.sitepoint.com/html/lang-codes">语言列表</a>；<br></li>
     <li>但sitepoint只是给出了语言的大类，例如中文只给出了zh，但是没有区分香港，台湾，大陆。而微软给出了一份更加<a href="http://msdn.microsoft.com/en-us/library/ms533052(v=vs.85).aspx">详细的语言列表</a>，其中细分了zh-cn, zh-hk, zh-tw。</li>
 </ul>
+
 ><font color="#0000FF">栗子：</font>
 
 ```html
@@ -78,7 +79,7 @@
 </html>
 ```
 
-###字符编码
+### 字符编码
 通过声明一个明确的字符编码，让浏览器轻松、快速的确定适合网页内容的渲染方式，通常指定为'UTF-8'。
 
 ><font color="#0000FF">栗子：</font>
@@ -93,12 +94,13 @@
 </html>
 ```
 
-###IE兼容模式
+### IE兼容模式
 <ul>
     <li>用 <font color="red">```<meta>```</font>标签可以指定页面应该用什么版本的IE来渲染；</li>
     <li>如果你想要了解更多，请点击<a href="https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do">这里</a>；</li>
     <li>不同doctype在不同浏览器下会触发不同的渲染模式（<a href="https://hsivonen.fi/doctype/">这篇文章</a>总结的很到位）。</li>
 </ul>
+
 ><font color="#00f">栗子：</font>
 
 ``` html
@@ -111,7 +113,7 @@
 </html>
 ```
 
-###引入CSS，JS
+### 引入CSS，JS
 根据HTML5规范, 通常在引入CSS和JS时不需要指明 <font color="#f00">```type```</font>，因为 <font color="#f00">```text/css```</font> 和 <font color="#f00">```text/javascript```</font> 分别是他们的默认值。
 <h4>HTML5规范链接:</h4>
 <ul>
@@ -140,17 +142,18 @@
 </script>
 ```
 
-###属性顺序
+### 属性顺序
 属性应该按照特定的顺序出现以保证易读性；
+
 <ul>
-    <li><font color="#f00">```class```</font></li>
-    <li><font color="#f00">```id```</font></li>
-    <li><font color="#f00">```name```</font></li>
-    <li><font color="#f00">```data-*```</font></li>
-    <li><font color="#f00">```src, for, type, href, value , max-length, max, min, pattern```</font></li>
-    <li><font color="#f00">```placeholder, title, alt```</font></li>
-    <li><font color="#f00">```aria-*, role```</font></li>
-    <li><font color="#f00">```required, readonly, disabled```</font></li>
+    <li>class</li>
+    <li>id</li>
+    <li>name</li>
+    <li>data-*</li>
+    <li>src, for, type, href, value , max-length, max, min, pattern</li>
+    <li>placeholder, title, alt</li>
+    <li>aria-*, role</li>
+    <li>required, readonly, disabled</li>
 </ul>
 class是为高可复用组件设计的，所以应处在第一位；<br>
 id更加具体且应该尽量少使用，所以将它放在第二位。
@@ -165,7 +168,7 @@ id更加具体且应该尽量少使用，所以将它放在第二位。
 <img src="..." alt="...">
 ```
 
-###boolean属性
+### boolean属性
 >boolean属性的存在表示取值为true，不存在则表示取值为false.
 
 <ul>
@@ -188,7 +191,7 @@ id更加具体且应该尽量少使用，所以将它放在第二位。
 ### JS生成标签
 在JS文件中生成标签让内容变得更难查找，更难编辑，性能更差。应该尽量避免这种情况的出现。
 
-###减少标签数量
+### 减少标签数量
 在编写HTML代码时，需要尽量避免多余的父节点；<br>
 很多时候，需要通过迭代和重构来使HTML变得更少。
 
@@ -203,13 +206,13 @@ id更加具体且应该尽量少使用，所以将它放在第二位。
 <!-- Better -->
 <img class="avatar" src="...">
 ```
-###实用高于完美
+### 实用高于完美
 尽量遵循HTML标准和语义，但是不应该以浪费实用性作为代价；<br>
 任何时候都要用尽量小的复杂度和尽量少的标签来解决问题。
 <div style="height: 1rem"></div>
 
-##<center><font>CSS, SCSS</font></center>
-###缩进
+## <center><font>CSS, SCSS</font></center>
+### 缩进
 使用soft tab（4个空格）。
 
 >栗子：
@@ -226,7 +229,7 @@ id更加具体且应该尽量少使用，所以将它放在第二位。
 }
 ```
 
-###分号
+### 分号
 每个属性声明末尾都要加分号。
 
 >栗子：
@@ -240,12 +243,12 @@ id更加具体且应该尽量少使用，所以将它放在第二位。
 }
 ```
 
-###空格
+### 空格
 以下几种情况不需要空格：
 <ul>
     <li>属性名后</li>
     <li>多个规则的分隔符','前</li>
-    <li><font color="#f00">```!important```</font> '!'后</li>
+    <li>!important</font> '!'后</li>
     <li>属性值中'('后和')'前</li>
     <li>行末不要有多余的空格</li>
 </ul>
@@ -255,8 +258,8 @@ id更加具体且应该尽量少使用，所以将它放在第二位。
     <li>属性值前</li>
     <li>选择器'>', '+', '~'前后</li>
     <li>'{'前</li>
-    <li><font color="#f00">```!important```</font> '!'前</li>
-    <li><font color="#f00">```@else```</font> 前后</li>
+    <li>!important</font> '!'前</li>
+    <li>@else</font> 前后</li>
     <li>属性值中的','后</li>
     <li>注释'/*'后和'*/'前</li>
 </ul>
@@ -323,7 +326,7 @@ id更加具体且应该尽量少使用，所以将它放在第二位。
 }
 ```
 
-###空行
+### 空行
 以下几种情况需要空行：
 <ul>
     <li>文件最后保留一个空行</li>
@@ -359,7 +362,7 @@ id更加具体且应该尽量少使用，所以将它放在第二位。
 }
 ```
 
-###换行
+### 换行
 以下几种情况不需要换行：
 <ul>
     <li>'{'前</li>
@@ -396,7 +399,7 @@ id更加具体且应该尽量少使用，所以将它放在第二位。
 }
 ```
 
-###注释
+### 注释
 <ul>
     <li>注释统一用'/* */'（scss中也不要用'//'），具体参照右边的写法；</li>
     <li>缩进与下一行代码保持一致；</li>
@@ -426,7 +429,7 @@ id更加具体且应该尽量少使用，所以将它放在第二位。
 }
 ```
 
-###引号
+### 引号
 <ul>
     <li>最外层统一使用双引号；</li>
     <li>url的内容要用引号；</li>
@@ -446,7 +449,7 @@ li[data-type="single"] {
 }
 ```
 
-###命名
+### 命名
 <ul>
     <li>类名使用小写字母，以中划线分隔</li>
     <li>id采用驼峰式命名</li>
@@ -485,7 +488,7 @@ $colorBlack: #000;
 }
 ```
 
-###属性声明顺序
+### 属性声明顺序
 相关的属性声明按右边的顺序做分组处理，组之间需要有一个空行。
 
 >栗子：
@@ -823,4 +826,971 @@ $colorBlack: #000;
         "pointer-events"
     ]
 ]
+<<<<<<< HEAD
+<<<<<<< HEAD
 ```
+
+### 颜色
+颜色16进制用小写字母；<br>
+颜色16进制尽量用简写。
+
+>栗子：
+
+``` css
+/* not good */
+.element {
+    color: #ABCDEF;
+    background-color: #001122;
+}
+
+/* good */
+.element {
+    color: #abcdef;
+    background-color: #012;
+}
+```
+
+### 属性简写
+属性简写需要你非常清楚属性值的正确顺序，而且在大多数情况下并不需要设置属性简写中包含的所有值，所以建议尽量分开声明会更加清晰；<br>
+`margin` 和 `padding` 相反，需要使用简写；<br>
+常见的属性简写包括：
+<ul>
+    <li>font</li>
+    <li>background</li>
+    <li>transition</li>
+    <li>animation</li>
+</ul>
+
+>栗子：
+
+``` css
+/* not good */
+.element {
+    transition: opacity 1s linear 2s;
+}
+
+/* good */
+.element {
+    transition-delay: 2s;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+    transition-property: opacity;
+}
+```
+
+### 媒体查询
+尽量将媒体查询的规则靠近与他们相关的规则，不要将他们一起放到一个独立的样式文件中，或者丢在文档的最底部，这样做只会让大家以后更容易忘记他们。
+
+>栗子：
+
+``` css
+.element {
+    ...
+}
+
+.element-avatar{
+    ...
+}
+
+@media (min-width: 480px) {
+    .element {
+        ...
+    }
+
+    .element-avatar {
+        ...
+    }
+}
+```
+
+### SCSS相关
+提交的代码中不要有 `@debug`；
+声明顺序：
+<ul>
+    <li>@extend</li>
+    <li>不包含 @content 的 @include</li>
+    <li>包含 @content 的 @include</li>
+    <li>自身属性</li>
+    <li>嵌套规则</li>
+</ul>
+@import 引入的文件不需要开头的'_'和结尾的'.scss'；<br>
+嵌套最多不能超过5层；<br>
+@extend 中使用placeholder选择器；<br>
+去掉不必要的父级引用符号'&'。<br>
+<br>
+
+>栗子：
+
+``` css
+/* not good */
+@import "_dialog.scss";
+
+/* good */
+@import "dialog";
+
+/* not good */
+.fatal {
+    @extend .error;
+}
+
+/* good */
+.fatal {
+    @extend %error;
+}
+
+/* not good */
+.element {
+    & > .dialog {
+        ...
+    }
+}
+
+/* good */
+.element {
+    > .dialog {
+        ...
+    }
+}
+```
+
+### 杂项
+<ul>
+    <li>不允许有空的规则；</li>
+    <li>元素选择器用小写字母；</li>
+    <li>去掉小数点前面的0；</li>
+    <li>去掉数字中不必要的小数点和末尾的0；</li>
+    <li>属性值'0'后面不要加单位；</li>
+    <li>同个属性不同前缀的写法需要在垂直方向保持对齐，具体参照右边的写法；</li>
+    <li>无前缀的标准属性应该写在有前缀的属性后面；</li>
+    <li>不要在同个规则里出现重复的属性，如果重复的属性是连续的则没关系；</li>
+    <li>不要在一个文件里出现两个相同的规则；</li>
+    <li>用 border: 0; 代替 border: none;；</li>
+    <li>选择器不要超过4层（在scss中如果超过4层应该考虑用嵌套的方式来写）；</li>
+    <li>发布的代码中不要有 @import；</li>
+    <li>尽量少用'*'选择器。</li>
+</ul>
+
+>栗子：
+
+``` css
+/* not good */
+.element {
+}
+
+/* not good */
+LI {
+    ...
+}
+
+/* good */
+li {
+    ...
+}
+
+/* not good */
+.element {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* good */
+.element {
+    color: rgba(0, 0, 0, .5);
+}
+
+/* not good */
+.element {
+    width: 50.0px;
+}
+
+/* good */
+.element {
+    width: 50px;
+}
+
+/* not good */
+.element {
+    width: 0px;
+}
+
+/* good */
+.element {
+    width: 0;
+}
+
+/* not good */
+.element {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+
+    background: linear-gradient(to bottom, #fff 0, #eee 100%);
+    background: -webkit-linear-gradient(top, #fff 0, #eee 100%);
+    background: -moz-linear-gradient(top, #fff 0, #eee 100%);
+}
+
+/* good */
+.element {
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+
+    background: -webkit-linear-gradient(top, #fff 0, #eee 100%);
+    background:    -moz-linear-gradient(top, #fff 0, #eee 100%);
+    background:         linear-gradient(to bottom, #fff 0, #eee 100%);
+}
+
+/* not good */
+.element {
+    color: rgb(0, 0, 0);
+    width: 50px;
+    color: rgba(0, 0, 0, .5);
+}
+
+/* good */
+.element {
+    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, .5);
+}
+```
+
+## JavaScript
+### 缩进
+使用soft tab (4个空格）。
+
+>栗子：
+
+``` javascript
+var x = 1,
+    y = 1;
+
+if (x < y) {
+    x += 10;
+} else {
+    x += 1;
+}
+```
+
+### 单行长度
+不要超过80，但如果编辑器开启word wrap可以不考虑单行长度。
+
+### 分号
+以下几种情况后需加分号：
+<ul>
+    <li>变量声明</li>
+    <li>表达式</li>
+    <li>return</li>
+    <li>throw</li>
+    <li>break</li>
+    <li>continue</li>
+    <li>do-while</li>
+</ul>
+
+>栗子：
+
+``` javascript
+/* var declaration */
+var x = 1;
+
+/* expression statement */
+x++;
+
+/* do-while */
+do {
+    x++;
+} while (x < 10);
+```
+
+### 空格
+以下几种情况不需要空格：
+<ul>
+    <li>对象的属性名后</li>
+    <li>前缀一元运算符后</li>
+    <li>后缀一元运算符前</li>
+    <li>函数调用括号前</li>
+    <li>无论是函数声明还是函数表达式，'('前不要空格</li>
+    <li>数组的'['后和']'前</li>
+    <li>对象的'{'后和'}'前</li>
+    <li>运算符'('后和')'前</li>
+</ul>
+以下几种情况需要空格：
+
+<ul>
+    <li>二元运算符前后</li>
+    <li>三元运算符'?:'前后</li>
+    <li>代码块'{'前</li>
+    <li>下列关键字前：else, while, catch, finally</li>
+    <li>下列关键字后：if, else, for, while, do, switch, case, try, catch, finally, with, return, typeof</li>
+    <li>单行注释'//'后（若单行注释和代码同行，则'//'前也需要），多行注释'*'后</li>
+    <li>对象的属性值前</li>
+    <li>for循环，分号后留有一个空格，前置条件如果有多个，逗号后留一个空格</li>
+    <li>无论是函数声明还是函数表达式，'{'前一定要有空格</li>
+    <li>函数的参数之间</li>
+</ul>
+
+>栗子：
+
+``` javascript
+// not good
+var a = {
+    b :1
+};
+
+// good
+var a = {
+    b: 1
+};
+
+// not good
+++ x;
+y ++;
+z = x?1:2;
+
+// good
+++x;
+y++;
+z = x ? 1 : 2;
+
+// not good
+var a = [ 1, 2 ];
+
+// good
+var a = [1, 2];
+
+// not good
+var a = ( 1+2 )*3;
+
+// good
+var a = (1 + 2) * 3;
+
+// no space before '(', one space before '{', one space between function parameters
+var doSomething = function(a, b, c) {
+    // do something
+};
+
+// no space before '('
+doSomething(item);
+
+// not good
+for(i=0;i<6;i++){
+    x++;
+}
+
+// good
+for (i = 0; i < 6; i++) {
+    x++;
+}
+```
+
+### 空行
+以下几种情况需要空行：
+<ul>
+    <li>变量声明后（当变量声明在代码块的最后一行时，则无需空行）</li>
+    <li>注释前（当注释在代码块的第一行时，则无需空行）</li>
+    <li>代码块后（在函数调用、数组、对象中则无需空行）</li>
+    <li>文件最后保留一个空行</li>
+</ul>
+
+>栗子：
+
+``` javascript
+// need blank line after variable declaration
+var x = 1;
+
+// not need blank line when variable declaration is last expression in the current block
+if (x >= 1) {
+    var y = x + 1;
+}
+
+var a = 2;
+
+// need blank line before line comment
+a++;
+
+function b() {
+    // not need blank line when comment is first line of block
+    return a;
+}
+
+// need blank line after blocks
+for (var i = 0; i < 2; i++) {
+    if (true) {
+        return false;
+    }
+
+    continue;
+}
+
+var obj = {
+    foo: function() {
+        return 1;
+    },
+
+    bar: function() {
+        return 2;
+    }
+};
+
+// not need blank line when in argument list, array, object
+func(
+    2,
+    function() {
+        a++;
+    },
+    3
+);
+
+var foo = [
+    2,
+    function() {
+        a++;
+    },
+    3
+];
+
+
+var foo = {
+    a: 2,
+    b: function() {
+        a++;
+    },
+    c: 3
+};
+```
+
+### 换行
+换行的地方，行末必须有','或者运算符；
+以下几种情况不需要换行：
+<ul>
+    <li>下列关键字后：else, catch, finally</li>
+    <li>代码块'{'前</li>
+</ul>
+以下几种情况需要换行：
+<ul>
+    <li>代码块'{'后和'}'前</li>
+    <li>变量赋值后</li>
+</ul>
+
+>栗子：
+
+``` javascript
+// not good
+var a = {
+    b: 1
+    , c: 2
+};
+
+x = y
+    ? 1 : 2;
+
+// good
+var a = {
+    b: 1,
+    c: 2
+};
+
+x = y ? 1 : 2;
+x = y ?
+    1 : 2;
+
+// no need line break with 'else', 'catch', 'finally'
+if (condition) {
+    ...
+} else {
+    ...
+}
+
+try {
+    ...
+} catch (e) {
+    ...
+} finally {
+    ...
+}
+
+// not good
+function test()
+{
+    ...
+}
+
+// good
+function test() {
+    ...
+}
+
+// not good
+var a, foo = 7, b,
+    c, bar = 8;
+
+// good
+var a,
+    foo = 7,
+    b, c, bar = 8;
+```
+
+### 单行注释
+<ul>
+    <li>双斜线后，必须跟一个空格；</li>
+    <li>缩进与下一行代码保持一致；</li>
+    <li>可位于一个代码行的末尾，与代码间隔一个空格。</li>
+</ul>
+
+>栗子：
+
+``` javascript
+if (condition) {
+    // if you made it here, then all security checks passed
+    allowed();
+}
+
+var zhangsan = 'zhangsan'; // one space after code
+```
+
+### 多行注释
+最少三行, '*'后跟一个空格，具体参照右边的写法；<br>
+建议在以下情况下使用：
+<ul>
+    <li>难于理解的代码段</li>
+    <li>可能存在错误的代码段</li>
+    <li>浏览器特殊的HACK代码</li>
+    <li>业务逻辑强相关的代码</li>
+</ul>
+
+>栗子：
+
+``` javascript
+/*
+ * one space after '*'
+ */
+var x = 1;
+```
+
+### 文档注释
+各类标签@param, @method等请参考<a href="http://usejsdoc.org/">usejsdoc</a>和<a href="http://yuri4ever.github.io/jsdoc/">JSDoc Guide</a>；
+建议在以下情况下使用：
+<ul>
+    <li>所有常量</li>
+    <li>所有函数</li>
+    <li>所有类</li>
+</ul>
+
+>栗子：
+
+``` javascript
+/**
+ * @func
+ * @desc 一个带参数的函数
+ * @param {string} a - 参数a
+ * @param {number} b=1 - 参数b默认值为1
+ * @param {string} c=1 - 参数c有两种支持的取值</br>1—表示x</br>2—表示xx
+ * @param {object} d - 参数d为一个对象
+ * @param {string} d.e - 参数d的e属性
+ * @param {string} d.f - 参数d的f属性
+ * @param {object[]} g - 参数g为一个对象数组
+ * @param {string} g.h - 参数g数组中一项的h属性
+ * @param {string} g.i - 参数g数组中一项的i属性
+ * @param {string} [j] - 参数j是一个可选参数
+ */
+function foo(a, b, c, d, g, j) {
+    ...
+}
+```
+
+### 引号
+最外层统一使用单引号。
+
+>栗子：
+
+``` javascript
+// not good
+var x = "test";
+
+// good
+var y = 'foo',
+    z = '<div id="test"></div>';
+```
+
+### 变量命名
+<ul>
+    <li>标准变量采用驼峰式命名（除了对象的属性外，主要是考虑到cgi返回的数据）</li>
+    <li>'ID'在变量名中全大写</li>
+    <li>'URL'在变量名中全大写</li>
+    <li>'Android'在变量名中大写第一个字母</li>
+    <li>'iOS'在变量名中小写第一个，大写后两个字母</li>
+    <li>常量全大写，用下划线连接</li>
+    <li>构造函数，大写第一个字母</li>
+    <li>jquery对象必须以'$'开头命名</li>
+</ul>
+
+>栗子：
+
+``` javascript
+var thisIsMyName;
+
+var goodID;
+
+var reportURL;
+
+var AndroidVersion;
+
+var iOSVersion;
+
+var MAX_COUNT = 10;
+
+function Person(name) {
+    this.name = name;
+}
+
+// not good
+var body = $('body');
+
+// good
+var $body = $('body');
+```
+
+### 变量声明
+一个函数作用域中所有的变量声明尽量提到函数首部，用一个var声明，不允许出现两个连续的var声明。
+
+>栗子：
+
+``` javascript
+function doSomethingWithItems(items) {
+    // use one var
+    var value = 10,
+        result = value + 10,
+        i,
+        len;
+
+    for (i = 0, len = items.length; i < len; i++) {
+        result += 10;
+    }
+}
+```
+
+### 函数
+<ul>
+    <li>无论是函数声明还是函数表达式，'('前不要空格，但'{'前一定要有空格；</li>
+    <li>函数调用括号前不需要空格；</li>
+    <li>立即执行函数外必须包一层括号；</li>
+    <li>不要给inline function命名；</li>
+    <li>参数之间用', '分隔，注意逗号后有一个空格。</li>
+</ul>
+
+>栗子：
+
+``` javascript
+// no space before '(', but one space before'{'
+var doSomething = function(item) {
+    // do something
+};
+
+function doSomething(item) {
+    // do something
+}
+
+// not good
+doSomething (item);
+
+// good
+doSomething(item);
+
+// requires parentheses around immediately invoked function expressions
+(function() {
+    return 1;
+})();
+
+// not good
+[1, 2].forEach(function x() {
+    ...
+});
+
+// good
+[1, 2].forEach(function() {
+    ...
+});
+
+// not good
+var a = [1, 2, function a() {
+    ...
+}];
+
+// good
+var a = [1, 2, function() {
+    ...
+}];
+
+// use ', ' between function parameters
+var doSomething = function(a, b, c) {
+    // do something
+};
+```
+
+### 数组、对象
+<ul>
+    <li>对象属性名不需要加引号；</li>
+    <li>对象以缩进的形式书写，不要写在一行；</li>
+    <li>数组、对象最后不要有逗号。</li>
+</ul>
+
+>栗子：
+
+``` javascript
+// not good
+var a = {
+    'b': 1
+};
+
+var a = {b: 1};
+
+var a = {
+    b: 1,
+    c: 2,
+};
+
+// good
+var a = {
+    b: 1,
+    c: 2
+};
+```
+
+### 括号
+下列关键字后必须有大括号（即使代码块的内容只有一行）：<br>
+if, else, for, while, do, switch, try, catch, finally, with。
+
+>栗子：
+
+``` javascript
+// not good
+if (condition)
+    doSomething();
+
+// good
+if (condition) {
+    doSomething();
+}
+```
+
+### null
+适用场景：
+<ul>
+    <li>初始化一个将来可能被赋值为对象的变量</li>
+    <li>与已经初始化的变量做比较</li>
+    <li>作为一个参数为对象的函数的调用传参</li>
+    <li>作为一个返回对象的函数的返回值</li>
+</ul>
+<br>
+
+不适用场景：
+<br>
+<ul>
+    <li>不要用null来判断函数调用时有无传参</li>
+    <li>不要与未初始化的变量做比较</li>
+</ul>
+
+>栗子：
+
+``` javascript
+// not good
+function test(a, b) {
+    if (b === null) {
+        // not mean b is not supply
+        ...
+    }
+}
+
+var a;
+
+if (a === null) {
+    ...
+}
+
+// good
+var a = null;
+
+if (a === null) {
+    ...
+}
+```
+
+### undefined
+<ul>
+    <li>永远不要直接使用undefined进行变量判断；</li>
+    <li>使用typeof和字符串'undefined'对变量进行判断。</li>
+</ul>
+
+>栗子：
+
+``` javascript
+// not good
+if (person === undefined) {
+    ...
+}
+
+// good
+if (typeof person === 'undefined') {
+    ...
+}
+```
+
+### jshint
+<ul>
+    <li>用'===', '!=='代替'==', '!='；</li>
+    <li>for-in里一定要有hasOwnProperty的判断；</li>
+    <li>不要在内置对象的原型上添加方法，如Array, Date；</li>
+    <li>不要在内层作用域的代码里声明了变量，之后却访问到了外层作用域的同名变量；</li>
+    <li>变量不要先使用后声明；</li>
+    <li>不要在一句代码中单单使用构造函数，记得将其赋值给某个变量；</li>
+    <li>不要在同个作用域下声明同名变量；</li>
+    <li>不要在一些不需要的地方加括号，例：delete(a.b)；</li>
+    <li>不要使用未声明的变量（全局变量需要加到.jshintrc文件的globals属性里面）；</li>
+    <li>不要声明了变量却不使用；</li>
+    <li>不要在应该做比较的地方做赋值；</li>
+    <li>debugger不要出现在提交的代码里；</li>
+    <li>数组中不要存在空元素；</li>
+    <li>不要在循环内部声明函数；</li>
+    <li>不要像这样使用构造函数，例：new function () { ... }, new Object；</li>
+</ul>
+
+>栗子：
+
+``` javascript
+// not good
+if (a == 1) {
+    a++;
+}
+
+// good
+if (a === 1) {
+    a++;
+}
+
+// good
+for (key in obj) {
+    if (obj.hasOwnProperty(key)) {
+        // be sure that obj[key] belongs to the object and was not inherited
+        console.log(obj[key]);
+    }
+}
+
+// not good
+Array.prototype.count = function(value) {
+    return 4;
+};
+
+// not good
+var x = 1;
+
+function test() {
+    if (true) {
+        var x = 0;
+    }
+
+    x += 1;
+}
+
+// not good
+function test() {
+    console.log(x);
+
+    var x = 1;
+}
+
+// not good
+new Person();
+
+// good
+var person = new Person();
+
+// not good
+delete(obj.attr);
+
+// good
+delete obj.attr;
+
+// not good
+if (a = 10) {
+    a++;
+}
+
+// not good
+var a = [1, , , 2, 3];
+
+// not good
+var nums = [];
+
+for (var i = 0; i < 10; i++) {
+    (function(i) {
+        nums[i] = function(j) {
+            return i + j;
+        };
+    }(i));
+}
+
+// not good
+var singleton = new function() {
+    var privateVar;
+
+    this.publicMethod = function() {
+        privateVar = 1;
+    };
+
+    this.publicMethod2 = function() {
+        privateVar = 2;
+    };
+};
+```
+
+### 杂项
+<ul>
+    <li>不要混用tab和space；</li>
+    <li>不要在一处使用多个tab或space；</li>
+    <li>换行符统一用'LF'；</li>
+    <li>对上下文this的引用只能使用'_this', 'that', 'self'其中一个来命名；</li>
+    <li>行尾不要有空白字符；</li>
+    <li>switch的falling through和no default的情况一定要有注释特别说明；</li>
+    <li>不允许有空的代码块。</li>
+</ul>
+
+>栗子：
+
+``` javascript
+// not good
+var a   = 1;
+
+function Person() {
+    // not good
+    var me = this;
+
+    // good
+    var _this = this;
+
+    // good
+    var that = this;
+
+    // good
+    var self = this;
+}
+
+// good
+switch (condition) {
+    case 1:
+    case 2:
+        ...
+        break;
+    case 3:
+        ...
+    // why fall through
+    case 4
+        ...
+        break;
+    // why no default
+}
+
+// not good with empty block
+if (condition) {
+
+}
+```
+
+## PS：本文来源于 [Code Guide by @AlloyTeam](http://alloyteam.github.io/CodeGuide/#css-declaration-order)
