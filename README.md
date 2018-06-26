@@ -9,3 +9,11 @@
 2. [阅读MarkDown 文档](http://www.markdown.cn/)
 3. [阅读腾讯前端代码规范文档](http://alloyteam.github.io/CodeGuide/#check) 与 
    [编写自己的文档笔记](https://github.com/jokerxi/notes/blob/master/Code%20Guide%20by.md)
+
+## 2018/06/26
+1. [阅读腾讯前端代码规范文档](http://alloyteam.github.io/CodeGuide/#check)（完） 与 [编写自己的文档笔记](https://github.com/jokerxi/notes/blob/master/Code%20Guide%20by.md)（完）
+2. [CSS 变量教程](http://www.ruanyifeng.com/blog/2017/05/css-variables.html)
+3. [阅读CSS](https://www.w3cplus.com/CSS3)
+    <ul>
+        <li><a href="https://www.w3cplus.com/css/scooped-corners.html">CSS如何实现内凹角效果</a></li>
+    </ul>

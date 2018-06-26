@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS如何实现内凹角效果</title>
+</head>
+<body>
+    <style>
+        :root {
+           --r: 2em; 
+        }
+
+        .box {
+            max-width: 15em;
+            min-height: 10em;
+            outline: solid 2px;
+            position: relative;
+            
+            &::before {
+                content: '';
+                position: absolute;
+                padding: var(--r);
+                box-shadow: 0 0 7px #b53;
+                background: #95a;
+            }
+        }
+    </style>
+
+    <div class="box"></div>
+
+</body>
+</html>
