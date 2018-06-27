@@ -40,6 +40,7 @@
         <li>
             <a href="https://www.w3cplus.com/css3/font-variants.html">字体变体font-variation-*</a>
             <span>（完）</span>
-            <a href="">栗子</a>
+            <a href="https://github.com/jokerxi/notes/blob/master/living_example/%E5%AD%97%E4%BD%93%E5%8F%98%E4%BD%93%20font-variation-/index.html">栗子</a>
         </li>
+        <li><a href="https://www.w3cplus.com/css3/css-grid-flexbox-solving-real-world-problems.html">CSS Grid和Flexbox解决实际的布局问题</a></li>
     </ul>
