@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG</title>
+</head>
+<body>
+    <style type="text/css">
+        :root {
+            --r: 3em;
+        }
+
+        .box {
+            position: relative;
+            margin: .75em auto 0;
+            padding: var(--r);
+            width: calc(100% - 2 * var(--r) - 1em);
+            max-width: 47em;
+            min-height: 10em;
+            color: #fff;
+            font: 1em trebuchet ms, verdana, sans-serif;
+        }
+
+        svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+        }
+
+        [id='m'] + use {
+            fill: rgba(153, 85, 170, .85);
+        }
+
+        * {
+            margin: 0;
+            color: inherit;
+            font: inherit;
+        }
+
+        html {
+          min-width: 10em;
+          height: 100%;
+          background: linear-gradient(rgba(221, 221, 221, 0.5), rgba(221, 221, 221, 0.5)), url(https://images.unsplash.com/photo-1510920018318-3b4dfe979e4d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=76eda3022d9860f69a7fc7a94e46c3e6) 0 0/cover;
+          font: 1em/1.25 trebuchet ms, verdana, arial, sans-serif;
+        }
+
+        h3 {
+            font: 700 2em/ 1.5 kalam, cursive;
+            text-align: center;
+        }
+
+        p {
+            padding: .75em 0;
+        }
+
+        em {
+            display: block;
+            font-style: italic; /*斜体*/
+            text-align: right;
+        }
+
+        a {
+            color: #ffb84d;
+        }
+
+
+    </style>
+
+    <div class='box'>
+      <svg>
+            <mask id='m' fill='#fff'>
+                <rect id="r" width='100%' height='100%'/>
+                <circle id='c' r='50' fill="#000"/>
+                <use xlink:href='#c' x='100%'/>
+                <use xlink:href='#c' y='100%'/>
+                <use xlink:href='#c' x='100%' y='100%'/>
+            </mask>
+            <use xlink:href='#r' fill='#f90' mask='url(#m)'/>
+      </svg>
+        <h3>The Amur Leopard</h3>
+    
+        <p>The Amur leopard has some very distinguishing features. The hairs of its summer pelt are 2.5 cm long but in winter they are replaced by 7 cm long ones.</p>
+        
+        <p>Apart from its long winter coat, which is a light colour in the winter, and more reddish-yellow in the summer, the Amur leopard is easily told apart from other leopard subspecies by its widely spaced rosettes with thick borders. It also has longer legs, probably an adaptation for walking through snow.</p>
+        
+        <em>from <a href='http://wwf.panda.org/what_we_do/endangered_species/amur_leopard2/'>wwf.panda.org</a></em>
+    </div>
+</body>
+</html>

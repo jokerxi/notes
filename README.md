@@ -15,5 +15,10 @@
 2. [CSS 变量教程](http://www.ruanyifeng.com/blog/2017/05/css-variables.html)
 3. [阅读CSS](https://www.w3cplus.com/CSS3)
     <ul>
-        <li><a href="https://www.w3cplus.com/css/scooped-corners.html">CSS如何实现内凹角效果</a></li>
+        <li>
+            <a href="https://www.w3cplus.com/css/scooped-corners.html">CSS如何实现内凹角效果</a>
+            <span>（完）</span>
+            <a href="">栗子1</a>
+            <a href="">栗子2</a>
+        </li>
     </ul>
