@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>字体变体font-variation-*</title>
+</head>
+
+<body>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Decovar Regular24';
+            src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/Decovar-VF.ttf");
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 20vw;
+            position: relative;
+            font-family: 'Decovar Regular24';
+            font-variation-settings: 'INLN' 1000, 'SWRM' 1000;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/209708058_b5a5fb07a6_o.jpg);
+            background-size: 30%;
+            background-repeat: repeat;
+            text-shadow: 2px 2px 5px rgba(42, 67, 8, .4);
+            -webkit-animation: grow 4s linear infinite;
+            -moz-animation: grow 4s linear infinite;
+            animation: grow 4s linear infinite;
+        }
+
+        h1:before {
+            text-shadow: 1px 1px 2px rgba(42, 67, 8, 0.5), -1px 1px 2px rgba(42, 67, 8, 0.5), -1px -1px 2px rgba(42, 67, 8, 0.5), 1px -1px 2px rgba(42, 67, 8, 0.5), 3px 3px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h1:after {
+            color: #421f00;
+            font-variation-settings: 'INLN' 0;
+        }
+
+        @-webkit-keyframes grow {
+            0% {
+                font-variation-settings: 'INLN' 1000, 'SWRM' 1000; 
+            }
+
+            50% {
+                font-variation-settings: 'INLN' 1000, 'SWRM' 0;
+            }
+        }
+
+        @keyframes grow {
+          0% {
+            font-variation-settings: 'INLN' 1000, 'SWRM' 1000;
+          }
+
+          50% {
+            font-variation-settings: 'INLN' 1000, 'SWRM' 0;
+          }
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            background: radial-gradient(ellipse at center, #adbf41 20%, #328a26 80%);
+            height: 100%;
+        }
+        
+        h1 {
+            display: flex;
+            -ms-align-items: center;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            letter-spacing: .6rem;
+        }
+
+        h1:after,
+        h1:before {
+            content: attr(data-text);
+            display: flex;
+            -ms-align-items: center;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+    </style>
+
+    <h1 contenteditable data-text="W3CPLUS">W3CPLUS</h1>
+</body>
+
+</html>

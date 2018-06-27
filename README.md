@@ -34,6 +34,12 @@
         </li>
         <li>
             <a href="https://www.w3cplus.com/css/gradient-for-every-line-of-a-para.html">CSS Tips：段落每行渐变色文本效果</a>
-            <a href=""></a>
+            <span>（完）</span>
+            <a href="https://github.com/jokerxi/notes/blob/master/living_example/CSS%20Tips%EF%BC%9A%E6%AE%B5%E8%90%BD%E6%AF%8F%E8%A1%8C%E6%B8%90%E5%8F%98%E8%89%B2%E6%96%87%E6%9C%AC%E6%95%88%E6%9E%9C/index.html">栗子</a>
+        </li>
+        <li>
+            <a href="https://www.w3cplus.com/css3/font-variants.html">字体变体font-variation-*</a>
+            <span>（完）</span>
+            <a href="">栗子</a>
         </li>
     </ul>
