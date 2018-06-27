@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Tips：段落每行渐变色文本效果</title>
+</head>
+
+<body>
+    <style type="text/css">
+        body {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            -ms-align-items: center;
+            align-items: center;
+            font-size: 2vw;
+            font-weight: bold;
+            flex-direction: column;
+        }
+
+        p {
+            display: inline-block;
+            max-width: 80vw;
+        }
+
+        span, em {
+            line-height: 2;
+            background-image: linear-gradient(135deg, deeppink, dodgerblue);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone; 
+            color: transparent;
+        }
+
+        em {
+            -webkit-text-decoration-line: underline;
+            -moz-text-decoration-line: underline;
+            text-decoration-line: underline;
+            -webkit-text-decoration-color: black;
+            -moz-text-decoration-color: black;
+            text-decoration-color: black;
+            padding: 0 6px;
+            }
+
+
+    </style>
+
+    <h1>段落<em>每行</em>文本渐变填充效果</h1>
+    <p>
+        <span>W3cplus是一个致力于推广国内前端行业的技术博客。它以探索为己任，不断活跃在行业技术最前沿，努力提供高质量前端技术博文；其文章范围广泛，主要以CSS3、HTML5、JavaScript、Vue、React、Mobile、动画等教程、译文和案例为主。</span>
+    </p>
+
+</body>
+
+</html>
