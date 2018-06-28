@@ -44,3 +44,34 @@
         </li>
         <li><a href="https://www.w3cplus.com/css3/css-grid-flexbox-solving-real-world-problems.html">CSS Grid和Flexbox解决实际的布局问题</a></li>
     </ul>
+
+## 2018/06/28
+
+1. [阅读CSS](https://www.w3cplus.com/CSS3)
+    <ul>
+        <li>
+            <a href="https://www.w3cplus.com/css3/css-grid-flexbox-solving-real-world-problems.html">CSS Grid和Flexbox解决实际的布局问题</a>
+            <span>（完）</span>
+        </li>
+        <li>
+            <a href="https://www.w3cplus.com/css/learncssgrid.html">学习CSS Grid</a>
+            <span>（完）</span>
+        </li>
+        <li>
+            <a href="https://www.w3cplus.com/css3/managing-the-css-cascade.html">管理CSS层叠</a>
+            <span>（完）</span>
+        </li>
+        <li>
+            <a href="https://www.w3cplus.com/css3/flexbox-layout-and-calculation.html">深入理解 flex 布局以及计算</a>
+            <span>（完）</span>
+        </li>
+        <li>
+            <a href="https://www.w3cplus.com/css3/text-stroke.html">text-stroke实现文本描边效果</a>
+            <span>（完）</span>
+            <a href="">栗子</a>
+        </li>
+        <li>
+            <a href="https://www.w3cplus.com/css3/css-grid-layout-terminology-part1.html">CSS Grid布局：图解网格布局中术语之一</a>
+            <span>（完）</span>
+        </li>
+    </ul>
