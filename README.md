@@ -68,10 +68,24 @@
         <li>
             <a href="https://www.w3cplus.com/css3/text-stroke.html">text-stroke实现文本描边效果</a>
             <span>（完）</span>
-            <a href="">栗子</a>
+            <a href="https://github.com/jokerxi/notes/blob/master/living_example/text-stroke%E5%AE%9E%E7%8E%B0%E6%96%87%E6%9C%AC%E6%8F%8F%E8%BE%B9%E6%95%88%E6%9E%9C/index.html">栗子</a>
         </li>
         <li>
             <a href="https://www.w3cplus.com/css3/css-grid-layout-terminology-part1.html">CSS Grid布局：图解网格布局中术语之一</a>
+            <span>（完）</span>
+        </li>
+    </ul>
+
+## 2018/06/29
+
+1. [阅读CSS](https://www.w3cplus.com/CSS3)
+    <ul>
+        <li>
+            <a href="https://www.w3cplus.com/css3/a-guide-to-flexbox-new.html">一个完整的Flexbox指南</a>
+            <span>（完）</span>
+        </li>
+        <li>
+            <a href="https://www.w3cplus.com/resources/css3-tutorial-and-case">CSS3属性教程与案例分享</a>
             <span>（完）</span>
         </li>
     </ul>
