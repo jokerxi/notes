@@ -91,6 +91,7 @@
     </ul>
 
 ## 2018/07/4
+
 1. [阅读CSS](https://www.w3cplus.com/CSS3)
     <ul>
         <li>
@@ -99,6 +100,28 @@
         </li>
         <li>
             <a href="http://www.w3cplus.com/animaton/animations-you-should-know.html">关于动画，你需要知道的</a>
+            <span>（完）</span>
+        </li>
+    </ul>
+
+## 2018/07/5
+
+1. [阅读CSS](https://www.w3cplus.com/CSS3)
+    <ul>
+        <li>
+            <a href="https://www.w3cplus.com/css3/css-secrets/translucent-borders.html">CSS秘密花园：透明边框</a>
+            <span>（完）</span>
+        </li>
+        <li>
+            <a href="https://www.w3cplus.com/css3/a-guide-to-flexbox-new.html">一个完整的Flexbox指南</a>
+            <span>（完）</span>
+        </li>
+        <li>
+            <a href="https://www.w3cplus.com/book-comment.html">《图解CSS3：核心技术与案例实战》</a>
+            <span>（完）</span>
+        </li>
+        <li>
+            <a href="https://www.w3cplus.com/css3/css3-supports.html">CSS3条件判断——@supports</a>
             <span>（完）</span>
         </li>
     </ul>
