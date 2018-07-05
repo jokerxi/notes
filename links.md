@@ -34,3 +34,4 @@
 1. [前端面试题总结](https://segmentfault.com/a/1190000011091907)
 2. [H5：“同样是返回，我们不一样”](http://elevenbeans.github.io/2018/06/26/enable-goback-on-h5-popup/)
 3. [语义化版本 2.0.0](https://semver.org/lang/zh-CN/)
+4. [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.im/post/5a9923e9518825558251c96a)

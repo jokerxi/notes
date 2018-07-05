@@ -89,3 +89,16 @@
             <span>（完）</span>
         </li>
     </ul>
+
+## 2018/07/4
+1. [阅读CSS](https://www.w3cplus.com/CSS3)
+    <ul>
+        <li>
+            <a href="http://www.w3cplus.com/css3/basic-selectors">CSS3 选择器——基本选择器</a>
+            <span>（完）</span>
+        </li>
+        <li>
+            <a href="http://www.w3cplus.com/animaton/animations-you-should-know.html">关于动画，你需要知道的</a>
+            <span>（完）</span>
+        </li>
+    </ul>
