@@ -38,7 +38,7 @@
             <a href="https://github.com/jokerxi/notes/blob/master/living_example/CSS%20Tips%EF%BC%9A%E6%AE%B5%E8%90%BD%E6%AF%8F%E8%A1%8C%E6%B8%90%E5%8F%98%E8%89%B2%E6%96%87%E6%9C%AC%E6%95%88%E6%9E%9C/index.html">栗子</a>
         </li>
         <li>
-            <a href="https://www.w3cplus.com/css3/font-variants.html">字体变体font-variation-*</a>
+            <a href="https://www.w3cplus.com/css3/font-variants.html">字体变体font-variation-* </a>
             <span>（完）</span>
             <a href="https://github.com/jokerxi/notes/blob/master/living_example/%E5%AD%97%E4%BD%93%E5%8F%98%E4%BD%93%20font-variation-/index.html">栗子</a>
         </li>
@@ -125,3 +125,7 @@
             <span>（完）</span>
         </li>
     </ul>
+
+## 2018/07/6 
+1. [阅读Vue 2.0](https://cn.vuejs.org/v2/guide/components.html) (基础组件)
+2. [Axios](https://www.kancloud.cn/yunye/axios/234845)
