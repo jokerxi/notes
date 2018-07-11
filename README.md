@@ -126,6 +126,15 @@
         </li>
     </ul>
 
-## 2018/07/6 
+## 2018/07/06 
+
 1. [阅读Vue 2.0](https://cn.vuejs.org/v2/guide/components.html) (基础组件)
 2. [Axios](https://www.kancloud.cn/yunye/axios/234845)
+
+## 2018/07/11
+1. [windows下搭建vue开发环境](https://www.toutiao.com/i6373156747950948866/?group_id=6373151443557695745&group_flags=0)
+2. [Vue之ToDoList实战](https://blog.csdn.net/wu__di/article/details/54918454)(上篇为姊妹篇)
+3. [vue.js多个组件加载问题](https://segmentfault.com/q/1010000007729221)
+4. [从零学习vue之简单演练一Todolist Demo](https://www.jianshu.com/p/ee8e1eff9591)
+5. [vue.js实战案例：实现todolist](https://blog.csdn.net/sinat_32586527/article/details/80799105)
+6. [组件注册](https://cn.vuejs.org/v2/guide/components-registration.html)
