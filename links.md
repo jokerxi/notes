@@ -37,9 +37,4 @@
 3. [语义化版本 2.0.0](https://semver.org/lang/zh-CN/)
 4. [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.im/post/5a9923e9518825558251c96a)
 5. [【明天见系列】程序员小哥哥，这种科幻概念风的效果，你会敲么？](https://juejin.im/pin/5b461b5b092dcb61bd727c8a)
-
-## 阅读书籍
-
-1. [心灵游戏](https://baike.baidu.com/item/%E5%BF%83%E7%81%B5%E6%B8%B8%E6%88%8F/19456518)(可以很好的重新审视自己)
-2. [疯子在左天才在右](https://baike.baidu.com/item/%E7%96%AF%E5%AD%90%E5%9C%A8%E5%B7%A6%E5%A4%A9%E6%89%8D%E5%9C%A8%E5%8F%B3/4672503?fr=aladdin)(有点深度，里面有些专业术语)
-3. [释梦(梦的解析)](https://baike.baidu.com/item/%E6%A2%A6%E7%9A%84%E8%A7%A3%E6%9E%90/2003222?fromtitle=%E9%87%8A%E6%A2%A6&fromid=82526&fr=aladdin)(专业术语有点多。)
+6. [Linux常用命令大全](https://www.cnblogs.com/yjd_hycf_space/p/7730690.html)

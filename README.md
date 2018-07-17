@@ -145,3 +145,15 @@
 1. [vue-cli入门（三）——人员管理实例](https://blog.csdn.net/sinat_17775997/article/details/70482291)
 2. [Class 与 Style 绑定](https://cn.vuejs.org/v2/guide/class-and-style.html#%E7%BB%91%E5%AE%9A-HTML-Class)
 3. [stylus中文版](https://www.zhangxinxu.com/jq/stylus/selectors.php)
+
+## 2018/07/13
+
+1. [Vue:Vue-cli，生命周期钩子](https://www.w3cplus.com/vue/vue-cli-lifecycle-hooks.html)
+2. [vue-cli入门（二）——项目结构](https://blog.csdn.net/yuanyuanispeak/article/details/73526816)
+3. [vue-cli入门（三）——人员管理实例](https://blog.csdn.net/sinat_17775997/article/details/70482291)
+4. [vue-cli入门（四）——vue-resource登录注册实例](https://blog.csdn.net/yuanyuanispeak/article/details/73530628)
+5. [使用Vue.js和Vuex 2.0构建一个简单的Todo应用程序](https://www.w3cplus.com/vue/build-a-simple-todo-app-with-vue-js.html)
+
+## 2018/07/16
+1. [DOM系列：DOM操作小结](https://www.w3cplus.com/javascript/DOM-manipulation-tutorial-series.html)
+2. [DOM系列：浏览器与DOM](https://www.w3cplus.com/javascript/browser-and-the-dom.html)
