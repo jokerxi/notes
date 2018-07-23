@@ -155,5 +155,26 @@
 5. [使用Vue.js和Vuex 2.0构建一个简单的Todo应用程序](https://www.w3cplus.com/vue/build-a-simple-todo-app-with-vue-js.html)
 
 ## 2018/07/16
+
 1. [DOM系列：DOM操作小结](https://www.w3cplus.com/javascript/DOM-manipulation-tutorial-series.html)
 2. [DOM系列：浏览器与DOM](https://www.w3cplus.com/javascript/browser-and-the-dom.html)
+
+## 2018/07/17
+
+1. [DOM系列：DOM事件简介](https://www.w3cplus.com/javascript/dom-event-intro.html)
+2. [vue快速入门的三个小实例](https://blog.csdn.net/qq_40479190/article/details/78649212)
+
+## 2018/07/18
+
+1. [DOM系列：DOM树和遍历DOM](https://www.w3cplus.com/javascript/dom-tree-and-traversals.html)
+2. [DOM系列：视窗、设备、滚动条和文档尺寸](https://www.w3cplus.com/javascript/viewport-device-scroll-document-size.html)
+
+## 2018/07/19
+
+1. [JavaScript学习笔记：初识JavaScript的DOM](https://www.w3cplus.com/javascript/intro-dom.html)
+2. [理解DOM](https://www.w3cplus.com/javascript/understanding-the-dom.html)
+
+## 2018/07/20
+
+1. [Vue 爬坑之路（六）—— 使用 Vuex + axios 发送请求](https://www.cnblogs.com/wisewrong/p/6402183.html)
+2. [快速构建一个使用axios的vue应用程序](https://segmentfault.com/a/1190000009192118)
