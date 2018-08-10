@@ -178,3 +178,17 @@
 
 1. [Vue 爬坑之路（六）—— 使用 Vuex + axios 发送请求](https://www.cnblogs.com/wisewrong/p/6402183.html)
 2. [快速构建一个使用axios的vue应用程序](https://segmentfault.com/a/1190000009192118)
+
+## 2018/07/31
+
+1. [Vuejs——（11）组件——slot内容分发](https://blog.csdn.net/sinat_17775997/article/details/52484072)
+
+
+## 2018/08/02
+
+1. [Git 大全](https://gitee.com/all-about-git)
+
+## 2018/08/10
+
+1.  [我是如何对网站CSS进行架构的](https://www.zhangxinxu.com/wordpress/2010/07/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E5%AF%B9%E7%BD%91%E7%AB%99css%E8%BF%9B%E8%A1%8C%E6%9E%B6%E6%9E%84%E7%9A%84/)
+2. [Airbnb JavaScript 编码规范(涵盖 ECMAScript 6+)](http://www.css88.com/archives/8345)
