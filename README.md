@@ -190,5 +190,10 @@
 
 ## 2018/08/10
 
-1.  [我是如何对网站CSS进行架构的](https://www.zhangxinxu.com/wordpress/2010/07/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E5%AF%B9%E7%BD%91%E7%AB%99css%E8%BF%9B%E8%A1%8C%E6%9E%B6%E6%9E%84%E7%9A%84/)
+1. [我是如何对网站CSS进行架构的](https://www.zhangxinxu.com/wordpress/2010/07/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E5%AF%B9%E7%BD%91%E7%AB%99css%E8%BF%9B%E8%A1%8C%E6%9E%B6%E6%9E%84%E7%9A%84/)
 2. [Airbnb JavaScript 编码规范(涵盖 ECMAScript 6+)](http://www.css88.com/archives/8345)
+
+## 20018/08/15
+
+1. [再说CSS3渐变——径向渐变](https://www.w3cplus.com/css3/new-css3-radial-gradient.html)
+2. [Vue js 的生命周期（看了就懂）](https://blog.csdn.net/qq_24073885/article/details/60143856)
